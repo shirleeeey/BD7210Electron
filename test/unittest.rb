@@ -7,7 +7,7 @@ class SomeDemoTest < Test::Unit::TestCase
     b = Object.new
     j = Object.new
 
-    assert_equal(4, 2+2)
+    assert_equal(5, 2+3)
     assert_not_same(o, j)
   end
 end
